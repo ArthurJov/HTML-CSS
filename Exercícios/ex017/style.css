@@ -1,0 +1,38 @@
+body{
+    background-color: #D8FFDB;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    background-color: #015958;
+    color: #C7FFED;
+}
+h2 {
+    color: #023535;
+    text-align: center;
+}
+
+h3 {
+    color: #008F8C;
+}
+
+p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.basico {
+    color: #008f00;
+    font-weight: bolder;
+}
+
+.intermediario {
+    color: #868f00;
+    font-weight: bolder;
+}
+
+.avancado {
+    color: #8f0000;
+    font-weight: bolder;
+}

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@font-face {
+    font-family: idroid;
+    src: url(Font/idroid.otf);
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #46b680;
+    margin: 0px;
+}
+header {
+    background-image: linear-gradient(#1fa766, #06411b);
+    padding: 10px;
+    border-radius: 10px;
+}
+header > h1{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-shadow: 1px 1px 2px #000000
+}
+header > p{
+    color : white;
+    text-align: center;
+    justify-content: center;
+}
+nav{
+    color: white;
+    background-color: #06411b;
+    padding: 5px;
+    justify-content: center;
+    box-shadow: 5px 3px 7px 1px #0000007a;
+    border-radius: 10px;
+}
+nav > a{
+    text-decoration: none;
+    margin-left: 5%;
+    color: white;
+    font-weight: bolder;
+    margin-right: 10%;
+}
+nav > a:hover{
+    color : lightgray;
+}
+main {
+    background-color: white;
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+}
+p{
+    text-align: justify;
+    text-indent: 20px;
+    padding: 30px;
+}
+.android{
+    margin-left: 20px;
+    font-family: idroid;
+    color: #06411b;
+}
+
+main > section > article > h3{
+    background-image: linear-gradient(90deg, #46b68069, #46b68000); 
+}
+
+#droids{
+    display: flex;
+    justify-content: center;
+}
+
+.link {
+    color: #1fa766;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1px;
+    margin: 1px;
+    border-radius: 15px;
+}
+.video{
+    padding: 13%;
+}
+footer > p {
+    margin: 0px;
+}

@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(37, 37, 37);
+    font-family: sans-serif;
+}
+h1 {
+    color: rgb(85, 0, 196);
+    text-align: center;
+}
+h2 {
+    color: rgb(85, 0, 196);
+    text-align: center;
+}
+p {
+    color: azure;
+    text-align: justify;
+}
